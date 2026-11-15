@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- SYNTHETIC DATA - GOLDEN PACs.008 XML FOR 02_charge_our.txt -->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.14">
+    <FIToFICstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>SYNTH2026111502</MsgId>
+            <CreDtTm>2026-11-15T00:00:00Z</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+            <TtlIntrBkSttlmAmt Ccy="EUR">50000.00</TtlIntrBkSttlmAmt>
+            <IntrBkSttlmDt>2026-11-15</IntrBkSttlmDt>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+            </SttlmInf>
+            <InstgAgt>
+                <FinInstnId>
+                    <BICFI>BANKBEBBXXX</BICFI>
+                </FinInstnId>
+            </InstgAgt>
+            <InstdAgt>
+                <FinInstnId>
+                    <BICFI>BANKDEFFXXX</BICFI>
+                </FinInstnId>
+            </InstdAgt>
+        </GrpHdr>
+        <CdtTrfTxInf>
+            <PmtId>
+                <InstrId>SYNTH2026111502</InstrId>
+                <EndToEndId>SYNTH2026111502</EndToEndId>
+                <TxId>SYNTH2026111502</TxId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="EUR">50000.00</IntrBkSttlmAmt>
+            <IntrBkSttlmDt>2026-11-15</IntrBkSttlmDt>
+            <ChrgBr>DEBT</ChrgBr>
+            <Dbtr>
+                <Nm>SYNTHETIC SERVICES NV</Nm>
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>1234567890</Id>
+                    </Othr>
+                </Id>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>BANKBEBBXXX</BICFI>
+                </FinInstnId>
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>BANKDEFFXXX</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+                <Nm>GLOBAL TRADING LTD</Nm>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>9876543210</Id>
+                    </Othr>
+                </Id>
+            </CdtrAcct>
+            <RmtInf>
+                <Ustrd>/INV/2026-OUR-01</Ustrd>
+            </RmtInf>
+        </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+</Document>
